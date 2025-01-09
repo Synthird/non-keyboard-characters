@@ -1,5 +1,11 @@
 body {
+	background-color: rgb(17, 17, 17);
+	color: rgb(245, 245, 245);
 	font-size: larger;
+}
+
+a {
+	color: rgb(245, 245, 245);
 }
 
 .print {
