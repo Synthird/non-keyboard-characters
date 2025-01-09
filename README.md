@@ -1,2 +1,3 @@
 # Non-keyboard-characters
-Characters that can't be typed via keyboard
+
+Characters that can't be typed via keyboard.
