@@ -1,3 +1,9 @@
 body {
 	font-size: larger;
 }
+
+.print {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
