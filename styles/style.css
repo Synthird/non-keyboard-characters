@@ -1,12 +1,19 @@
+:root {
+	--black-colour: rgb(17, 17, 17);
+	--white-colour: rgb(245, 245, 245);
+}
+
+/* Dark mode */
+
 body {
-	background-color: rgb(17, 17, 17);
-	color: rgb(245, 245, 245);
+	background-color: var(--black-colour);
+	color: var(--white-colour);
 	font-size: larger;
 	margin-left: 1.1%;
 }
 
 a {
-	color: rgb(245, 245, 245);
+	color: var(--white-colour);
 }
 
 li {
@@ -15,4 +22,15 @@ li {
 
 .note {
 	margin-top: 1.2%;
+}
+
+/* Light mode */
+
+.body-light {
+	background-color: var(--white-colour);
+	color: var(--black-colour);
+}
+
+.a-light, .toggle-theme-light {
+	color: var(--black-colour);
 }
