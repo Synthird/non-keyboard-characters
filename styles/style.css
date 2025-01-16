@@ -3,6 +3,14 @@
 	--white-colour: rgb(245, 245, 245);
 }
 
+li {
+	margin-bottom: 0.36%;
+}
+
+.note {
+	margin-top: 1.2%;
+}
+
 /* Dark mode */
 
 body {
@@ -14,14 +22,6 @@ body {
 
 a {
 	color: var(--white-colour);
-}
-
-li {
-	margin-bottom: 0.36%;
-}
-
-.note {
-	margin-top: 1.2%;
 }
 
 /* Light mode */
