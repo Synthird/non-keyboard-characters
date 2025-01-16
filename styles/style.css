@@ -23,14 +23,3 @@ body {
 a {
 	color: var(--white-colour);
 }
-
-/* Light mode */
-
-.body-light {
-	background-color: var(--white-colour);
-	color: var(--black-colour);
-}
-
-.a-light, .toggle-theme-light {
-	color: var(--black-colour);
-}
