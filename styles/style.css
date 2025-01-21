@@ -1,6 +1,5 @@
-:root {
-	--black-colour: rgb(17, 17, 17);
-	--white-colour: rgb(245, 245, 245);
+html {
+	color-scheme: dark light;
 }
 
 li {
