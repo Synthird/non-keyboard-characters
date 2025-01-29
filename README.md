@@ -1,6 +1,6 @@
 # Non-keyboard characters
 
-Characters that can't be typed via keyboard.
+A website that displays characters that can't be typed via keyboard.
 
 ## License
 
