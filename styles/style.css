@@ -12,12 +12,6 @@ li {
 
 
 body {
-	background-color: var(--black-colour);
-	color: var(--white-colour);
 	font-size: larger;
 	margin-left: 1.1%;
-}
-
-a {
-	color: var(--white-colour);
 }
