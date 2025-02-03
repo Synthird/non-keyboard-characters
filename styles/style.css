@@ -1,3 +1,7 @@
+:root {
+	--non-bullet-margin: 1.2%;
+}
+
 html {
 	color-scheme: dark light;
 }
@@ -12,9 +16,9 @@ li {
 }
 
 footer {
-	margin-bottom: 1.2%;
+	margin-bottom: var(--non-bullet-margin);
 }
 
 .tiny-heading {
-	margin-top: 1.2%;
+	margin-top: var(--non-bullet-margin);
 }
