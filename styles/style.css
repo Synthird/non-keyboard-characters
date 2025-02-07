@@ -1,5 +1,6 @@
 :root {
 	--non-bullet-margin: 1.2%;
+	--border-text-padding: 0.3%
 }
 
 html {
@@ -21,4 +22,14 @@ footer {
 
 .tiny-heading {
 	margin-top: var(--non-bullet-margin);
+}
+
+p.tiny-heading {
+	padding: var(--border-text-padding);
+	border: 0.2em solid rgb(122, 122, 122);
+	width: fit-content;
+}
+
+ul .tiny-heading  {
+	line-height: 1.6;
 }
