@@ -5,12 +5,15 @@ const tip = document.getElementById("tip");
 const darkModeBorderColour = tip.style.borderColor;
 const lightModeBorderColour = "rgb(133, 133, 133)";
 
+function setTheme(themeName, borderColour) {
+	document.getElementsByTagName("html")[0].style.colorScheme = themeName;
+	tip.style.borderColor = borderColour;
+}
+
 checkbox.addEventListener("click", () => {
 	if (checkbox.checked) {
-		document.getElementsByTagName("html")[0].style.colorScheme = "dark";
-		tip.style.borderColor = darkModeBorderColour;
+		setTheme("dark", darkModeBorderColour);
 	} else {
-		document.getElementsByTagName("html")[0].style.colorScheme = "light";
-		tip.style.borderColor = lightModeBorderColour;
+		setTheme("light", lightModeBorderColour);
 	}
 });
