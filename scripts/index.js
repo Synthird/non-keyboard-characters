@@ -2,18 +2,14 @@ const htmlPage = document.getElementsByTagName("html")[0];
 const checkbox = document.getElementById("toggle-theme");
 const tip = document.getElementById("tip");
 
-const darkModeBorderColour = tip.style.borderColor;
-const lightModeBorderColour = "rgb(133, 133, 133)";
-
-function setTheme(themeName, borderColour) {
+function setTheme(themeName) {
 	document.getElementsByTagName("html")[0].style.colorScheme = themeName;
-	tip.style.borderColor = borderColour;
 }
 
 checkbox.addEventListener("click", () => {
 	if (checkbox.checked) {
-		setTheme("dark", darkModeBorderColour);
+		setTheme("dark");
 	} else {
-		setTheme("light", lightModeBorderColour);
+		setTheme("light");
 	}
 });

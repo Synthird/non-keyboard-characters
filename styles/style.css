@@ -20,16 +20,6 @@ footer {
 	margin-bottom: var(--non-bullet-margin);
 }
 
-.tiny-heading {
-	margin-top: var(--non-bullet-margin);
-}
-
-p.tiny-heading {
-	padding: 0.1em var(--border-text-padding) 0.25em;
-	border: 0.2em solid rgb(122, 122, 122);
-	width: fit-content;
-}
-
-ul .tiny-heading {
-	line-height: 1.6;
+header p {
+	line-height: 0.15em;
 }
