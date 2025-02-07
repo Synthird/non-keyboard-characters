@@ -25,7 +25,7 @@ footer {
 }
 
 p.tiny-heading {
-	padding: var(--border-text-padding);
+	padding: 0.1em var(--border-text-padding) 0.25em;
 	border: 0.2em solid rgb(122, 122, 122);
 	width: fit-content;
 }
