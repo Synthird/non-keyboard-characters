@@ -16,10 +16,18 @@ header p {
 	line-height: 0.26em;
 }
 
+section ul {
+	font-size: 1.4rem;
+}
+
 li {
 	margin-bottom: 0.36%;
 }
 
 footer {
 	margin-bottom: var(--non-bullet-margin);
+}
+
+.contents {
+	line-height: 1.6;
 }
