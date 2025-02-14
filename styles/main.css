@@ -20,6 +20,10 @@ section ul {
 	font-size: 1.4rem;
 }
 
+nav ul {
+	list-style-type: none
+}
+
 li {
 	margin-bottom: 0.36%;
 }
