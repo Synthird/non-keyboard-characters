@@ -16,7 +16,7 @@ header p {
 	line-height: 0.26em;
 }
 
-section ul {
+div ul {
 	font-size: 1.4rem;
 }
 
@@ -33,5 +33,19 @@ footer {
 }
 
 .contents {
+	position: fixed;
+	float: left;
+}
+
+.contents-list {
 	line-height: 1.6;
+}
+
+main {
+	float: right;
+	margin-right: 67%;
+}
+
+footer {
+	clear: both;
 }
