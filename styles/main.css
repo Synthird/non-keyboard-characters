@@ -5,10 +5,7 @@ html {
 body {
 	font-size: larger;
 	margin-left: 1.1%;
-}
-
-header p {
-	line-height: 0.26em;
+	line-height: normal;
 }
 
 div ul {
