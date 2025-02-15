@@ -1,3 +1,7 @@
+:root {
+	--content-margin: 12.35em;
+}
+
 html {
 	color-scheme: dark;
 }
@@ -22,14 +26,9 @@ li {
 
 .contents {
 	position: fixed;
-	float: left;
-}
-
-.contents-list {
-	line-height: 1.6;
+	width: var(--content-margin);
 }
 
 main {
-	float: right;
-	margin-right: 67%;
+	margin-left: var(--content-margin);
 }
