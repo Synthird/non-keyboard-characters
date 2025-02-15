@@ -28,10 +28,6 @@ li {
 	margin-bottom: 0.36%;
 }
 
-footer {
-	margin-bottom: var(--non-bullet-margin);
-}
-
 .contents {
 	position: fixed;
 	float: left;
@@ -44,8 +40,4 @@ footer {
 main {
 	float: right;
 	margin-right: 67%;
-}
-
-footer {
-	clear: both;
 }
