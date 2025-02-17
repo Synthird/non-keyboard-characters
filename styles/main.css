@@ -32,3 +32,7 @@ li {
 main {
 	margin-left: var(--content-margin);
 }
+
+a:active {
+	text-decoration: none;
+}
