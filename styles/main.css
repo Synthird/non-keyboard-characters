@@ -1,7 +1,3 @@
-:root {
-	--content-margin: 12.35em;
-}
-
 html {
 	color-scheme: dark;
 }
@@ -25,10 +21,10 @@ li {
 }
 
 .contents {
-	position: fixed;
-	width: var(--content-margin);
+	position: sticky;
+	bottom: 9%;
 }
 
-main {
-	margin-left: var(--content-margin);
+.contents, main {
+	display: inline-block;
 }
