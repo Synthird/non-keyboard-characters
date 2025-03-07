@@ -20,9 +20,17 @@ li {
 	line-height: 1.6;
 }
 
+/* Table of contents */
+
 .contents {
 	position: sticky;
 	bottom: 9%;
+}
+
+@media only screen and (max-width:300px) {
+	.contents h2, .contents nav {
+		display: none;
+	}
 }
 
 .contents, main {
