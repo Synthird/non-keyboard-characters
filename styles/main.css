@@ -36,3 +36,23 @@ li {
 .contents, main {
 	display: inline-block;
 }
+
+/* website printing */
+
+@media print {
+	html {
+		color-scheme: light;
+	}
+
+	.hide-in-print {
+		display: none;
+	}
+
+	main {
+		display: block;
+	}
+
+	.contents {
+		display: none;
+	}
+}
