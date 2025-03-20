@@ -30,8 +30,4 @@ li {
 	.hide-in-print {
 		display: none;
 	}
-
-	main {
-		display: block;
-	}
 }
