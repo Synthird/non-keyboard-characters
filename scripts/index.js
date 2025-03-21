@@ -1,4 +1,4 @@
-const htmlPage = document.getElementsByTagName("html")[0];
+const htmlPage = document.querySelector(":root");
 const checkbox = document.getElementById("toggle-theme");
 
 function setTheme(themeName) {
