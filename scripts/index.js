@@ -1,8 +1,8 @@
-const htmlPage = document.querySelector(":root");
+const root = document.querySelector(":root");
 const checkbox = document.getElementById("toggle-theme");
 
 function setTheme(themeName) {
-	htmlPage.style.colorScheme = themeName;
+	root.style.colorScheme = themeName;
 }
 
 checkbox.addEventListener("click", () => {
