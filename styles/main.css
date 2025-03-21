@@ -23,7 +23,7 @@ li {
 /* website printing */
 
 @media print {
-	html {
+	:root {
 		color-scheme: light;
 	}
 
